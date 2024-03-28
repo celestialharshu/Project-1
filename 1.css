@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+   
+}
+.container1{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    align-self: flex-start;
+    text-decoration: none;
+    
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 10px;
+    padding-left: 100px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 25px;
+    margin: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+nav ul li a {
+    color: #8b8989;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    transition: background-color 0.3s, color 0.4s;
+    border-radius: 5rem;
+    
+}
+nav ul li a:hover{
+    background-color: black;
+    color :white;
+    
+}
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);    /* Box shadow for depth */
+    display: flex;
+    padding: 150px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2 {
+    display: flex;
+    padding-right: 50px;
+    
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #282928;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #545754;
+}
+
+.social-login {
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-login a {
+    display: flex;
+    padding:  10px 30px;
+    background-color: #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.social-login a:hover {
+    background-color: #ccc;
+    transform: translateY(-8px);
+    transition: transform 0.5s ease;
+}
+.minibox{
+    flex :10;
+    display: flex;
+    
+}
+.h3{
+    flex :7;
+}
